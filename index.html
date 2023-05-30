@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=i">
+    <link rel="stylesheet" href="http://localhost/Rubrica/style2.css">
+    <link rel="schprtcut icon" href="http://localhost/Rubrica/logo.png" />    
+
+    <title>ORGANIZER GUIDE</title>
+</head>
+
+<body>
+
+    <header id="titulo">
+        <div class="contenedor">
+            <div class="contenedor-imagen-titulo">
+            <img src="http://localhost/Rubrica/logo.png" alt="Descripción de la imagen">
+            <h1>ORGANIZER GUIDE</h1>
+            </div>
+
+            <div class="botones">
+                <a href="inicio.php" class="boton">Iniciar sesión</a>
+                <a href="registro.php" class="boton">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <nav id="navegacion">
+        <a class="opciones" href="index.html">Inicio</a>
+        <a class="opciones" href="buscar_editar.html">Editar</a>
+        <a class="opciones" href="buscar_eliminar.html">Eliminar</a>
+    </nav>
+    <main>
+    <div class="slider">
+        <div class="slides">
+            
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+
+
+            <div class="slide first">
+                <img src="http://localhost/Rubrica/123.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="http://localhost/Rubrica/456.jpg" alt="">
+            </div>
+
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+
+            </div>
+
+        </div>
+
+        <div class="navigation-manual">
+           <label for="radio1" class="manual-btn"></label>
+           <label for="radio2" class="manual-btn"></label>
+        </div>
+
+    </div>
+    <!--</section>-->
+    <script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+        document.getElementById('radio'+counter).checked=true;
+        counter++;
+        if(counter>2){
+            counter=1;
+        }
+    },5000)
+    </script>
+    </main>
+    <br><br>
+    <h3>Importancia de un Planificador de Tareas</h3>
+    <p>La falta de tiempo y el no saber organizarse es algo muy común que afecta a muchas 
+        personas. Esto genera varias consecuencias en la salud, el trabajo o el estudio, la vida 
+        personal, entre otras. El planificador de tareas es un proceso que consiste en identificar, 
+        organizar y planificar actividades que se deben llevar acabo, para evaluar la duración que 
+        puede tomar, el día o la hora en la que se puede hacer y la una descripción de esta.</p>
+    <p>Un planificador de tareas puede ayudar a gestionar el tiempo de una mejor manera. Este 
+        puede designar un horario o día en el que se desea desarrollar tareas para que una 
+        persona no emplee una gran cantidad de tiempo ejecutando una sola labor. Además, se 
+        puede tener un seguimiento o control de lo que se hace o tener presente los deberes que 
+        se tienen que hacer en un futuro.</p>
+</body>
+<footer>
+    <p>Felipe Gomez Mora © 2023</p>
+</footer>
+</html

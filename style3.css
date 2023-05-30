@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #navegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+ 
+  }
+  
+  body {
+    padding-top: 50px; /* Añadir un espacio en la parte superior del cuerpo para la barra de navegación */
+    background-color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .formulario {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: #c9c19f;
+    border-radius: 10px;
+    padding: 20px; /* Agregamos un espacio interno al contenedor */
+    margin-top: 20px;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    min-height: 1vh;
+    margin-top: 50px; /* Espacio en la parte superior para la barra de navegación */
+    left: 50px; /* Fija la posición en la parte izquierda */
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+  
+  
+  
+
+.top-heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    width: 400%;
+    max-width: 500px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column; /* Cambiamos la dirección del flex a columna */
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre los contenedores de los inputs */
+  }
+
+input[name="inputBox"]{
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    margin-bottom: 10px; /* Espacio entre los inputs */
+}
+
+input[name="inputBox2"]{
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    margin-bottom: 10px; /* Espacio entre los inputs */
+}
+
+input[name="inputBox3"]{
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    margin-bottom: 10px; /* Espacio entre los inputs */
+}
+
+#add{
+    margin-top: 10px; /* Agregamos espacio arriba del botón */
+    margin-left: 10px;
+    font-size: large;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    color:white;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+#add:hover{
+    cursor: pointer;
+}
+
+
+.item{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    font-size: x-large;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px 10px;
+    width: 500px;
+    
+}
+
+.item p{
+    flex-basis: 80%;
+}
+.icon-container{
+    flex-basis: 20%;
+}
+
+.icon-container button{
+    background-color:transparent ;
+    border: none;
+    font-size: x-large;
+}
+
+.fas{
+    color:rgb(59, 66, 66);
+    cursor: pointer;
+    font-size: xx-large;
+    transition: all 0.3s;
+}
+
+.fas:hover{
+    transform: scale(1.3);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.deleted-text{
+    text-decoration: line-through;
+    text-decoration-thickness: 4px;
+    color:rgb(255, 0, 0);
+}
+
+.deleted-text span{
+    color:rgb(255, 255, 255);
+}
+
+.fade{
+    background-color: black;
+}
